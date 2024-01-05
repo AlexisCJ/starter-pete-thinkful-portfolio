@@ -21,21 +21,20 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  align-items: center;
   display: flex;
-  margin: 15px 75px;
+  margin: 15px auto;
   width: 750px;
-  align-content: center;
 }
 
 header h1 {
   flex: 1;
-  margin: 10px 5px 10px 20px;
+  /*margin: 10px 5px 10px 20px;*/
 }
 
 header nav {
   flex: 1;
-  margin: 20px 15px 20px 5px;
+  /*margin: 20px 15px 20px 5px;*/
   width: 300px;
 }
 
@@ -54,15 +53,13 @@ article div {
   text-align: center;
   width: 100%;
 }
-/* editing out flex for about until later
+
 #about {
   display: flex;
+  flex-wrap: wrap;
 }
 
-#about img {
-  align-items: left;
-}
-*/
+
 /* Paragraphs */
 p {
   line-height: 1.5;

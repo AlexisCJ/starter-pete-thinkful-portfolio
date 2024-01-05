@@ -54,11 +54,18 @@ article div {
   width: 100%;
 }
 
-#about {
+.about {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
+#image-circle {
+  max-width: 100%;
+}
+
+.about-text {
+  text-align: left;
+}
 
 /* Paragraphs */
 p {
